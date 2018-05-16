@@ -1,0 +1,10 @@
+<?php
+
+namespace PHPMVC\Controllers;
+
+
+class NotFoundController extends AbstractController {
+    public function defaultAction(){
+        echo 'Welcome from notfoundcontroller';
+    }
+}

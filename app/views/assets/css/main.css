@@ -1,0 +1,93 @@
+.thumbnail .caption {
+    text-align: center;
+}
+.adbox .ads_link {
+    font-weight: 900;
+    border: 0;
+}
+.adbox img {
+    height: 200px;
+}
+.adbox .desc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 500px;
+    color: #696868;
+}
+.adbox .lead{
+    font-weight: 900;
+}
+.comments{
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #3c8dbc;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+}
+.comments h4{
+    color: #3c8dbc;
+    text-align: center;
+    font-weight: 900;
+}
+.comments .comment_author {
+    font-weight: 600;
+    float: left;
+    color: #3c8dbc;
+    text-transform:capitalize ;
+}
+.comments .comment_date {
+    color: #777;
+    font-size: 85%;
+    float: right;
+}
+.comments .comment_description{
+    clear: both;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+.comment{
+    margin-bottom: 10px;
+}
+.comments .comment_input {
+    width: 80%;
+    display: inline-block;
+}
+.comments .comment_sub  {
+    width: 19%;
+    padding: 5px;
+    margin: 0;
+    font-weight: 900;
+}
+.login form{
+    margin: auto;
+    width: 50%;
+}
+.login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+}
+.login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.login button:hover {
+    opacity: 0.8;
+}
+.editAd textarea{
+    width: 100%;
+    padding: 10px;
+
+}
+.editAd input[type=submit]{
+    margin-left: 50%;
+}
